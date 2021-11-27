@@ -119,13 +119,13 @@
             "summary_automations": "{number} automations"
           },
           "actions": {
-            "add": "Add"
+            "add": "Aggiungi"
           }
         }
       },
       "dialogs": {
         "create_area": {
-          "title": "New area",
+          "title": "Nuova area",
           "fields": {
             "copy_from": "Copy settings from"
           }
@@ -420,37 +420,37 @@
         "new_notification": {
           "title": "Crea notifica",
           "description": "Crea una nuova notifica.",
-          "trigger": "Condition",
+          "trigger": "Condizioni",
           "action": "Task",
-          "options": "Options",
+          "options": "Opzioni",
           "fields": {
             "event": {
               "heading": "Evento",
               "description": "Quando questa notifica deve essere inviata",
               "choose": {
                 "armed": {
-                  "name": "Alarm is armed",
-                  "description": "The alarm is succesfully armed"
+                  "name": "L'allarme è inserito",
+                  "description": "L'allarme è stato inserito con successo"
                 },
                 "disarmed": {
-                  "name": "Alarm is disarmed",
-                  "description": "The alarm is disarmed"
+                  "name": "L'allarme è disattivato",
+                  "description": "L'allarme è disattivato"
                 },
                 "triggered": {
                   "name": "Alarm is triggered",
-                  "description": "The alarm is triggered"
+                  "description": "L'allarme è scattato"
                 },
                 "arm_failure": {
-                  "name": "Failed to arm",
-                  "description": "The arming of the alarm failed due to one or more open sensors"
+                  "name": "Impossibile attivare",
+                  "description": "L'inserimento dell'allarme è fallito per uno o più sensori aperti"
                 },
                 "arming": {
-                  "name": "Exit delay started",
-                  "description": "Exit delay started, ready to leave the house."
+                  "name": "Ritardo uscita iniziato",
+                  "description": "Ritardo uscita iniziato, pronto per uscire di casa."
                 },
                 "pending": {
-                  "name": "Entry delay started",
-                  "description": "Entry delay started, the alarm will trigger soon."
+                  "name": "Ritardo ingresso iniziato",
+                  "description": "Ritardo di ingresso iniziato, l'allarme si attiverà a breve."
                 }
               }
             },
@@ -467,12 +467,12 @@
               "description": "Contenuto del messaggio di notifica",
               "insert_wildcard": "Insert wildcard",
               "placeholders": {
-                "armed": "The alarm is set to {{arm_mode}}",
-                "disarmed": "The alarm is now OFF",
-                "triggered": "The alarm is triggered! Cause: {{open_sensors}}.",
-                "arm_failure": "The alarm could not be armed right now, due to: {{open_sensors}}.",
-                "arming": "The alarm will be armed soon, please leave the house.",
-                "pending": "The alarm is about to trigger, disarm it quickly!"
+                "armed": "L'allarme è impostato su {{arm_mode}}",
+                "disarmed": "L'allarme pra è disattivato",
+                "triggered": "L'allarme è scattato! Causa: {{open_sensors}}.",
+                "arm_failure": "L'allarme non può essere inserito in questo momento, a causa di: {{open_sensors}}.",
+                "arming": "L'allarme sarà attivato presto, per favore esci di casa.",
+                "pending": "L'allarme sta per scattare, disarmalo velocemente!"
               }
             },
             "open_sensors_format": {
@@ -500,12 +500,12 @@
               }
             },
             "delete": {
-              "heading": "Delete automation",
-              "description": "Permanently remove this automation"
+              "heading": "Elimina automazione",
+              "description": "Rimuovi definitivamente questa automazione"
             }
           },
           "actions": {
-            "test": "Try it"
+            "test": "Prova ora"
           }
         },
         "new_action": {
@@ -518,7 +518,7 @@
             },
             "area": {
               "heading": "Area",
-              "description": "Area for which the event applies, leave empty to select the global alarm."
+              "description": "Area per la quale si applica l'evento, lasciare vuoto per selezionare l'allarme globale."
             },
             "mode": {
               "heading": "Modalità",
@@ -531,7 +531,7 @@
             "action": {
               "heading": "Azione",
               "description": "Azione che deve eseguire l'entità",
-              "no_common_actions": "Actions can only be assigned in YAML mode for the selected entities."
+              "no_common_actions": "Le azioni possono essere assegnate solo in modalità YAML per le entità selezionate."
             },
             "name": {
               "heading": "Nome",
