@@ -254,15 +254,15 @@
             }
           },
           "actions": {
-            "toggle_advanced": "Advanced settings",
-            "remove": "Remove",
-            "setup_groups": "Setup groups"
+            "toggle_advanced": "Impostazioni avanzate",
+            "remove": "Rimuovi",
+            "setup_groups": "Imposta gruppi"
           },
           "errors": {
-            "description": "Please correct the following errors:",
-            "no_area": "No area is selected",
-            "no_modes": "No modes are selected for which the sensor should be active",
-            "no_auto_bypass_modes": "No modes are selected for the sensor may be automatically bypassed"
+            "description": "Per favore correggere i seguenti errori:",
+            "no_area": "Nessuna area selezionata",
+            "no_modes": "Nessuna modalità selezionata per la quale il sensore dovrebbe essere attivo",
+            "no_auto_bypass_modes": "Nessuna modalità selezionata per il sensore può essere bypassato automaticamente"
           }
         }
       },
@@ -368,8 +368,8 @@
               "description": "Inserendo questo codice forzerai lo stato di attivazione dell'allarme"
             },
             "area_limit": {
-              "heading": "Restricted areas",
-              "description": "Limit user to control only the selected areas"
+              "heading": "Aree riservate",
+              "description": "Limita l'utente al controllo solo delle aree selezionate"
             }
           },
           "errors": {
